@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="启动跳转:"
+        android:textSize="28dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="102dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="click_implicit"
+        android:text="隐式跳转"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:onClick="click_implicit"
+        android:text="打电话"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="181dp" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:onClick="click_implicit"
+        android:text="发短信"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:onClick="click_implicit"
+        android:text="浏览器"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+</LinearLayout>
+
